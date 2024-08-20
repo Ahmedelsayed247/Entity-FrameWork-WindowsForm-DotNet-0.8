@@ -17,14 +17,19 @@ namespace SecondEntityFrameWork
         {
             InitializeComponent();
             sqlCommand = new SqlCommand("Select * from Products", sqlConnection);
+            cmdSuppliers = new SqlCommand("Select SupplierID as SID ,SupplierName from Suppliers", sqlConnection);
+
             sqlDataAdapter = new SqlDataAdapter(sqlCommand);
+            sqlDataAdapterSuppliers = new SqlDataAdapter(cmdSuppliers);
             dt = new DataTable();
+            suppliersDt = new DataTable();  
         }
         SqlConnection sqlConnection = new SqlConnection("Data Source=.;Initial Catalog= NorthWind; Integrated Security = true");
 
-        SqlCommand sqlCommand;
-        SqlDataAdapter sqlDataAdapter;
-        DataTable dt;
+        SqlCommand sqlCommand,cmdSuppliers;
+
+        SqlDataAdapter sqlDataAdapter,sqlDataAdapterSuppliers;
+        DataTable dt,suppliersDt;
         BindingSource productsBindingSource;
         private void btnLoad_Click(object sender, EventArgs e)
         {
@@ -32,10 +37,20 @@ namespace SecondEntityFrameWork
             productsBindingSource = new BindingSource(dt, "");
             dataGridView1.DataSource = productsBindingSource;
             dataGridView1.Columns["ProductId"].ReadOnly = true;
+            dataGridView1.Columns["SupplierId"].Visible = false;
+
+
+
+
             DataGridViewComboBoxColumn DC = new DataGridViewComboBoxColumn();
             DC.HeaderText = "Supplier";
             dataGridView1.Columns.AddRange(DC);
-
+            sqlDataAdapterSuppliers.Fill(suppliersDt);
+            DC.DataSource = suppliersDt;
+            DC.DisplayMember = "SupplierName";
+            DC.ValueMember = "SID";
+            // Source of selected value from the original data source 
+            DC.DataPropertyName= "SupplierID" ;
         }
 
         private void btnSave_Click(object sender, EventArgs e)

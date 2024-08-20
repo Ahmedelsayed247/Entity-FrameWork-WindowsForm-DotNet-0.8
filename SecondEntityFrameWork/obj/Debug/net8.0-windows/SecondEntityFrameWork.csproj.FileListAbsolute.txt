@@ -22,3 +22,4 @@ C:\Users\hp\OneDrive\Desktop\Entity Framework\SecondEntityFrameWork\obj\Debug\ne
 C:\Users\hp\OneDrive\Desktop\Entity Framework\SecondEntityFrameWork\obj\Debug\net8.0-windows\SecondEntityFrameWork.pdb
 C:\Users\hp\OneDrive\Desktop\Entity Framework\SecondEntityFrameWork\obj\Debug\net8.0-windows\SecondEntityFrameWork.genruntimeconfig.cache
 C:\Users\hp\OneDrive\Desktop\Entity Framework\SecondEntityFrameWork\obj\Debug\net8.0-windows\ref\SecondEntityFrameWork.dll
+C:\Users\hp\OneDrive\Desktop\Entity Framework\SecondEntityFrameWork\obj\Debug\net8.0-windows\SecondEntityFrameWork.sourcelink.json

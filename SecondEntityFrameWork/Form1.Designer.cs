@@ -46,7 +46,7 @@
             // 
             // btnLoad
             // 
-            btnLoad.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            btnLoad.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             btnLoad.Location = new Point(26, 447);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(94, 29);
@@ -57,7 +57,7 @@
             // 
             // btnSave
             // 
-            btnSave.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            btnSave.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             btnSave.Location = new Point(887, 447);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(94, 29);

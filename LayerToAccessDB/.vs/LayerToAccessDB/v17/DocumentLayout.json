@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2ED90B-F1C4-4A06-94B2-7CD4F46E33F2}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\dataaccesslayer\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2ED90B-F1C4-4A06-94B2-7CD4F46E33F2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E76B24-10A2-4850-8B2F-D922A85E2EAD}|BusinessLogicLayer\\BusinessLogicLayer.csproj|C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\businesslogiclayer\\entitymanager\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E76B24-10A2-4850-8B2F-D922A85E2EAD}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\entitymanager\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E76B24-10A2-4850-8B2F-D922A85E2EAD}|BusinessLogicLayer\\BusinessLogicLayer.csproj|C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\businesslogiclayer\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E76B24-10A2-4850-8B2F-D922A85E2EAD}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\BusinessLogicLayer\\EntityManager\\ProductManager.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\EntityManager\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\BusinessLogicLayer\\EntityManager\\ProductManager.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\EntityManager\\ProductManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T18:12:25.78Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\DataAccessLayer\\DBManager.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DBManager.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\DataAccessLayer\\DBManager.cs",
+              "RelativeToolTip": "DataAccessLayer\\DBManager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T18:33:48.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\BusinessLogicLayer\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\Entity Framework\\LayerToAccessDB\\BusinessLogicLayer\\Entities\\Product.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Entities\\Product.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T17:14:32.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
